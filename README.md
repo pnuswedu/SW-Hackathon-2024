@@ -209,13 +209,13 @@ int main(void){
 _single underscores_
 **double asterisks**
 __double underscores__
-~~cancelline~~
+~cancelline~~
 ```
 *single asterisks* <br />
 _single underscores_ <br />
 **double asterisks** <br />
 __double underscores__ <br />
-~~cancelline~~  <br />
+~cancelline~~  <br />
 <br />
 
 ### 4.7. 이미지 Image
@@ -227,20 +227,3 @@ __double underscores__ <br />
 <br/>
 ![부산대학교 소프트웨어융합교육원](https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/884154bb-28f6-4498-9f64-a8a878972951, "부산대학교 소프트웨어융합교육원")
 <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
