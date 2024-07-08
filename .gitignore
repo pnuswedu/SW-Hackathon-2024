@@ -1,2 +1,4 @@
-config/database.js
-text.txt
+homepage/config
+homepage/node_modules
+homepage/start.sh
+homepage/nohup.out
