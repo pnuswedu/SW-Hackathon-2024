@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.screen > div {
+  width: 80%;
+}
+.studentID,
+.password {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.logo {
+  width: 231px;
+  height: 140px;
+  margin: 20px;
+}
+.btn {
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgb(23, 51, 150);
+}
+.form-label {
+  font-weight: bold;
+}
+#else {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-decoration-none {
+  font-size: smaller;
+}
+@media (min-width: 500px) {
+  .screen > div {
+    width: 40%;
+  }
+}

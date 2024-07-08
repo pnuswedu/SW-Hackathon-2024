@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 90%;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.register {
+  display: flex;
+
+  margin: 10px 0px 10px 0px;
+}
+
+.register img {
+  height: 50px;
+}
+
+.register div {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-left: 5px;
+
+  font-weight: bold;
+  font-size: large;
+}
+
+.form-label {
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.phonenum {
+  display: flex;
+}
+
+.phonenum, .form-floating {
+  font-size: 14px;
+}
+
+.phonenum .form-floating {
+  margin-left: 10px;
+}
+
+.btn-dark {
+  background-color: rgb(23, 51, 150);
+
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+}
