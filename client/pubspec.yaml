@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_dotenv: ^5.1.0
-  google_fonts: ^6.2.1
   google_maps_flutter: ^2.7.0
   lottie: ^3.1.2
   lucide_icons: ^0.257.0
@@ -22,6 +21,21 @@ dev_dependencies:
 
 assets:
   - .env
+  - assets/
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800
+        
