@@ -3,7 +3,7 @@ import 'package:heron_app/screens/map.dart';
 import 'package:heron_app/constants/theme/colors.dart';
 import 'package:heron_app/constants/theme/typography.dart';
 
-void main() {
+main() async {
   runApp(const MainApp());
 }
 
