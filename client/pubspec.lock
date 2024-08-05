@@ -86,6 +86,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
+  flutter_lucide:
+    dependency: "direct main"
+    description:
+      name: flutter_lucide
+      sha256: "7d0756fe6eee698874e6a710564c561027779b8287b5b25936fa4d0fcf939265"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -216,14 +224,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
-  lucide_icons:
-    dependency: "direct main"
-    description:
-      name: lucide_icons
-      sha256: ad24d0fd65707e48add30bebada7d90bff2a1bba0a72d6e9b19d44246b0e83c4
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.257.0"
   matcher:
     dependency: transitive
     description:
@@ -366,5 +366,5 @@ packages:
     source: hosted
     version: "1.0.0"
 sdks:
-  dart: ">=3.4.0 <4.0.0"
+  dart: ">=3.4.3 <4.0.0"
   flutter: ">=3.22.0"

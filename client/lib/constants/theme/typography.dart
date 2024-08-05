@@ -21,22 +21,49 @@ HeronTypography getTypography(BuildContext context) {
 }
 
 class HeronTypography extends ThemeExtension<HeronTypography> {
-  const HeronTypography();
+  final Color headingColor;
+  final Color bodyColor;
 
-  TextStyle get h1 => const _HeronTextStyle(
-      fontSize: 32, height: 40, fontWeight: HeronFontWeight.bold);
-  TextStyle get h2 => const _HeronTextStyle(
-      fontSize: 26, height: 32, fontWeight: HeronFontWeight.bold);
-  TextStyle get h3 => const _HeronTextStyle(
-      fontSize: 20, height: 26, fontWeight: HeronFontWeight.bold);
-  TextStyle get h4 => const _HeronTextStyle(
-      fontSize: 18, height: 22, fontWeight: HeronFontWeight.bold);
+  const HeronTypography(
+      {this.headingColor = Colors.black, this.bodyColor = Colors.black});
 
-  TextStyle get body1 => const _HeronTextStyle(fontSize: 16, height: 24);
-  TextStyle get body2 => const _HeronTextStyle(fontSize: 14, height: 20);
+  TextStyle get h1 => TextStyle(
+      fontSize: 32,
+      height: 1.3,
+      fontWeight: HeronFontWeight.bold,
+      color: headingColor);
 
-  TextStyle get label => const _HeronTextStyle(fontSize: 12, height: 16);
-  TextStyle get button => const _HeronTextStyle(fontSize: 14, height: 20);
+  TextStyle get h2 => TextStyle(
+      fontSize: 26,
+      height: 1.3,
+      fontWeight: HeronFontWeight.bold,
+      color: headingColor);
+
+  TextStyle get h3 => TextStyle(
+      fontSize: 20,
+      height: 1.3,
+      fontWeight: HeronFontWeight.bold,
+      color: headingColor);
+
+  TextStyle get h4 => TextStyle(
+      fontSize: 18,
+      height: 1.3,
+      fontWeight: HeronFontWeight.bold,
+      color: headingColor);
+
+  TextStyle get body1 =>
+      TextStyle(fontSize: 16, height: 1.45, color: bodyColor);
+
+  TextStyle get body2 =>
+      TextStyle(fontSize: 14, height: 1.45, color: bodyColor);
+
+  TextStyle get label => TextStyle(fontSize: 12, height: 1.3, color: bodyColor);
+
+  TextStyle get button => TextStyle(
+        fontSize: 14,
+        height: 1.45,
+        color: bodyColor,
+      );
 
   @override
   HeronTypography copyWith() {
